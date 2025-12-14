@@ -1,0 +1,41 @@
+/* * Đây là tệp CSS nguồn.
+ * Bạn không cần viết gì ở đây trừ khi muốn thêm CSS tùy chỉnh.
+ */
+
+/* Chèn các lớp cơ sở (reset) của Tailwind */
+@tailwind base;
+
+/* Chèn các lớp component của Tailwind */
+@tailwind components;
+
+/* Chèn các lớp utility (tiện ích) của Tailwind */
+@tailwind utilities;
+
+/* * CSS TÙY CHỈNH (NÂNG CAO)
+ *
+ * Bạn có thể viết CSS thuần hoặc sử dụng @layer để thêm các lớp tùy chỉnh.
+ * Ví dụ:
+ * @layer components {
+ * .btn-primary {
+ * @apply bg-blue-600 text-white font-bold py-2 px-4 rounded;
+ * }
+ * }
+ */
+
+@layer components {
+    /*
+   * Chúng ta dùng class .primary-menu (mà chúng ta đã thêm vào <ul>)
+   * để nhắm mục tiêu đến các thẻ <li> và <a> bên trong.
+   */
+    .primary-menu li a {
+        /* * @apply là "ma thuật" của Tailwind:
+     * Nó cho phép bạn dùng các class tiện ích ngay trong tệp CSS.
+     */
+        @apply text-body hover:text-primary px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200;
+    }
+}
+@layer utilities {
+    .animate-flash {
+        animation: flash 0.5s ease-in-out infinite;
+    }
+}

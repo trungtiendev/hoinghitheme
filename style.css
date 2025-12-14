@@ -1,0 +1,18 @@
+/*
+Theme Name: trungtiendevtheme
+Theme URI: https://example.com/
+Author: Trung Tiến
+Author URI: https://example.com/
+Description: Giao diện được lập trình và thiết kế bởi Trung Tiến. Các tinh năng bao gồm tùy chỉnh giao diện, hỗ trợ bài viết dạng hình ảnh nổi bật, và bố cục đáp ứng đa dạng thiết bị.
+Version: 1.0.0
+Requires at least: 5.8
+Tested up to: 6.5
+Requires PHP: 7.4
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: trungtienlearn.com
+Tags: custom-background, custom-logo, post-thumbnails, responsive-layout, block-styles
+
+Đây là tệp bắt buộc để WordPress nhận diện theme.
+CSS thực tế được nạp từ /assets/css/main.css thông qua functions.php.
+*/

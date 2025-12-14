@@ -1,0 +1,44 @@
+/* assets/css/flipbook.css */
+
+/* 1. Thiết lập Container chính cho Flipbook */
+#magazine {
+    /* Đặt kích thước cố định (Phải khớp với 800x600 trong JS) */
+    width: 800px; 
+    height: 600px;
+    
+    /* Căn giữa cuốn sách trên màn hình */
+    margin: 0 auto; 
+    
+    /* Thiết lập các thuộc tính 3D và đổ bóng */
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+/* 2. Thiết lập Kích thước cho Từng Trang Lật */
+/* Mỗi trang có kích thước bằng một nửa cuốn sách */
+#magazine .page {
+    width: 400px; /* BOOK_WIDTH / 2 */
+    height: 600px; /* BOOK_HEIGHT */
+    
+    /* Thêm style cơ bản cho trang */
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    
+    /* Nội dung của trang PDF */
+    overflow: hidden;
+}
+
+/* 3. Đảm bảo Canvas/Nội dung bên trong trang không bị tràn */
+#magazine .page canvas {
+    display: block;
+}
+
+/* Tùy chỉnh các nút điều hướng của Turn.js (nếu thư viện không tự tạo) */
+/* Cần thiết nếu bạn muốn các mũi tên lật trang hiển thị */
+/* .next-button, .prev-button { 
+    position: absolute;
+    top: 50%; 
+    z-index: 1000;
+} */
