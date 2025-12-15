@@ -92,9 +92,9 @@ function hoinghitheme_customize_register_all( $wp_customize ) {
     
     // --- 3. Hero Section và Topbar ---
     $wp_customize->add_section( 'hero_section', array( 'title' => __( 'Hero Section (Trang Chủ)', 'hoinghitheme' ), 'priority' => 30, ) );
-    $wp_customize->add_setting( 'hero_heading', array( 'default' => 'Hiến chương Giáo hội Phật giáo Việt Nam', 'sanitize_callback' => 'sanitize_text_field', 'transport' => 'postMessage', ) );
+    $wp_customize->add_setting( 'hero_heading', array( 'default' => 'Trang lưu trữ tài liệu hội nghị', 'sanitize_callback' => 'sanitize_text_field', 'transport' => 'postMessage', ) );
     $wp_customize->add_control( 'hero_heading_control', array( 'label' => __( 'Tiêu đề Chính Hero', 'hoinghitheme' ), 'section' => 'hero_section', 'settings' => 'hero_heading', 'type' => 'text', ) );
-    $wp_customize->add_setting( 'hero_description', array( 'default' => 'Nơi lưu trữ và chứng thực các văn bản pháp quy, nghị quyết, và tài liệu nền móng của Giáo hội Phật giáo Việt Nam.', 'sanitize_callback' => 'sanitize_textarea_field', 'transport' => 'postMessage', ) );
+    $wp_customize->add_setting( 'hero_description', array( 'default' => 'Nơi lưu trữ và chứng thực các văn bản hội nghị', 'sanitize_callback' => 'sanitize_textarea_field', 'transport' => 'postMessage', ) );
     $wp_customize->add_control( 'hero_description_control', array( 'label' => __( 'Mô tả Hero', 'hoinghitheme' ), 'section' => 'hero_section', 'settings' => 'hero_description', 'type' => 'textarea', ) );
     $wp_customize->add_setting( 'hero_image', array( 'default' => '', 'sanitize_callback' => 'esc_url_raw', 'transport' => 'postMessage', ) );
     $wp_customize->add_control( new WP_Customize_Image_Control( $wp_customize, 'hero_foreground_image_control', array( 'label' => __( 'Ảnh nền Hero', 'hoinghitheme' ), 'section' => 'hero_section', 'settings' => 'hero_image', ) ) );

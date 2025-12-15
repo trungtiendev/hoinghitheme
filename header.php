@@ -165,8 +165,8 @@
                 <div class="container mx-auto max-w-6xl px-4">
                     <div class="flex flex-col px-4 md:px-0 text-center max-w-3xl justify-center mx-auto">
                         <?php
-                        $hero_heading = get_theme_mod( 'hero_heading', 'Hiến chương Giáo hội Phật giáo Việt Nam' );
-                        $hero_description = get_theme_mod( 'hero_description', 'Nơi lưu trữ và chứng thực các văn bản pháp quy...' );
+                        $hero_heading = get_theme_mod( 'hero_heading', 'Trang lưu trữ tài liệu hội nghị' );
+                        $hero_description = get_theme_mod( 'hero_description', 'Nơi lưu trữ và chứng thực các văn bản hội nghị' );
                         ?>
                         <h1 class="leading-tight text-3xl md:text-5xl font-medium tracking-tight text-balance text-zinc-950 text-center md:text-left"
                             data-customize-setting-link="hero_heading">
