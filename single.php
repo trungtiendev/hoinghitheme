@@ -5,7 +5,7 @@
  * File này hiện chỉ hỗ trợ hiển thị nội dung bài viết thông thường.
  * (Đã loại bỏ logic Flipbook PDF).
  *
- * @package trungtiendevtheme
+ * @package hoinghitheme
  */
 
 get_header(); // Nạp tệp header.php
@@ -44,14 +44,14 @@ get_header(); // Nạp tệp header.php
                 <div class="entry-content prose prose-lg max-w-none text-content">
                     <?php the_content(); ?>
                     <?php wp_link_pages( array(
-                        'before' => '<div class="page-links">' . esc_html__( 'Trang:', 'trungtiendevtheme' ),
+                        'before' => '<div class="page-links">' . esc_html__( 'Trang:', 'hoinghitheme' ),
                         'after'  => '</div>',
                     ) ); ?>
                 </div>
                 
                 <footer class="mt-8 pt-4 border-t border-gray-200">
                     <span class="cat-links text-sm text-gray-500">
-                        <?php esc_html_e( 'Chuyên mục: ', 'trungtiendevtheme' ); ?>
+                        <?php esc_html_e( 'Chuyên mục: ', 'hoinghitheme' ); ?>
                         <?php the_category(', '); ?>
                     </span>
                     
@@ -70,7 +70,7 @@ get_header(); // Nạp tệp header.php
     <?php else : // Nếu không tìm thấy Bài viết ?>
 
         <p class="text-center text-xl text-gray-500 py-12">
-            <?php esc_html_e( 'Rất tiếc, không tìm thấy nội dung bài viết này.', 'trungtiendevtheme' ); ?>
+            <?php esc_html_e( 'Rất tiếc, không tìm thấy nội dung bài viết này.', 'hoinghitheme' ); ?>
         </p>
 
     <?php endif; // Kết thúc The Loop ?>

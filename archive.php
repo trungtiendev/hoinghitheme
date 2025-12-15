@@ -4,7 +4,7 @@
  *
  * Bao gồm Categories, Tags, Authors, và Date archives.
  *
- * @package trungtiendevtheme
+ * @package hoinghitheme
  */
 
 get_header(); // Nạp tệp header.php (mở <html>, <body>, header, và mở thẻ <main>)
@@ -55,7 +55,7 @@ get_header(); // Nạp tệp header.php (mở <html>, <body>, header, và mở t
 
         <div class="col-span-full">
             <p class="text-center text-xl text-gray-500 py-12 bg-white rounded-lg shadow-md">
-                <?php esc_html_e( 'Rất tiếc, không tìm thấy bài viết nào trong mục này.', 'trungtiendevtheme' ); ?>
+                <?php esc_html_e( 'Rất tiếc, không tìm thấy bài viết nào trong mục này.', 'hoinghitheme' ); ?>
             </p>
         </div>
 
@@ -67,8 +67,8 @@ get_header(); // Nạp tệp header.php (mở <html>, <body>, header, và mở t
     <?php
     // Hiển thị các liên kết phân trang (Older Posts / Newer Posts hoặc số trang)
     the_posts_pagination( array(
-        'prev_text' => '<span class="text-lg">&larr;</span> ' . esc_html__( 'Trước', 'trungtiendevtheme' ),
-        'next_text' => esc_html__( 'Sau', 'trungtiendevtheme' ) . ' <span class="text-lg">&rarr;</span>',
+        'prev_text' => '<span class="text-lg">&larr;</span> ' . esc_html__( 'Trước', 'hoinghitheme' ),
+        'next_text' => esc_html__( 'Sau', 'hoinghitheme' ) . ' <span class="text-lg">&rarr;</span>',
         'screen_reader_text' => 'Điều hướng bài viết',
         'mid_size'  => 2, // Hiển thị 2 số trang ở giữa
     ) );

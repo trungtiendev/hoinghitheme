@@ -2,7 +2,7 @@
 /**
  * Template cho Trang Chủ tùy chỉnh.
  *
- * @package trungtiendevtheme
+ * @package hoinghitheme
  */
 
 get_header(); // Nạp tệp header.php

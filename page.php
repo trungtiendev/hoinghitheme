@@ -4,7 +4,7 @@
  *
  * File này được sử dụng khi truy cập một Trang đơn lẻ (ví dụ: Trang Giới thiệu, Trang Liên hệ).
  *
- * @package trungtiendevtheme
+ * @package hoinghitheme
  */
 
 get_header(); // Nạp tệp header.php
@@ -40,7 +40,7 @@ get_header(); // Nạp tệp header.php
 
                     // Xử lý liên kết phân trang nội dung (nếu dùng tag )
                     wp_link_pages( array(
-                        'before' => '<div class="page-links mt-6 border-t pt-4 text-sm font-semibold">' . esc_html__( 'Trang:', 'trungtiendevtheme' ),
+                        'before' => '<div class="page-links mt-6 border-t pt-4 text-sm font-semibold">' . esc_html__( 'Trang:', 'hoinghitheme' ),
                         'after'  => '</div>',
                     ) );
                     ?>
@@ -59,10 +59,10 @@ get_header(); // Nạp tệp header.php
 
         <div class="bg-white p-10 rounded-lg shadow-md my-12 text-center">
             <h1 class="text-3xl font-bold text-content mb-4">
-                <?php esc_html_e( 'Trang không tồn tại.', 'trungtiendevtheme' ); ?>
+                <?php esc_html_e( 'Trang không tồn tại.', 'hoinghitheme' ); ?>
             </h1>
             <p class="text-lg text-gray-600">
-                <?php esc_html_e( 'Xin lỗi, chúng tôi không thể tìm thấy trang bạn yêu cầu.', 'trungtiendevtheme' ); ?>
+                <?php esc_html_e( 'Xin lỗi, chúng tôi không thể tìm thấy trang bạn yêu cầu.', 'hoinghitheme' ); ?>
             </p>
         </div>
 

@@ -2,7 +2,7 @@
 /**
  * Template Part để hiển thị nội dung tóm tắt trong trang lưu trữ.
  *
- * @package trungtiendevtheme
+ * @package hoinghitheme
  */
 ?>
 

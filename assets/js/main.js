@@ -1,5 +1,5 @@
 /**
- * Tệp JavaScript chính của theme trungtiendevtheme.
+ * Tệp JavaScript chính của theme hoinghitheme.
  **/
 
 // Chạy code khi tất cả nội dung HTML đã được tải (VANILLA JS)

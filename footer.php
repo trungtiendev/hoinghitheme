@@ -2,7 +2,7 @@
 /**
  * Template cho phần Footer.
  *
- * @package trungtiendevtheme
+ * @package hoinghitheme
  */
 ?>
 </main> <!-- #content -->
@@ -22,27 +22,18 @@
     <div class="flex flex-col md:flex-row gap-6 md:gap-4 justify-around mb-0">
         <div class="relative bg-none border p-4 rounded-lg border-gray-300 m-2 md:m-4">
             <h3 class="absolute top-0 -translate-y-1/2 px-2 bg-blue-900 font-semibold text-lg z-50">
-                Thông tin 1</h3>
-            <ul>
-                <li>Địa chỉ: 123 Đường ABC, Quận XYZ, Thành phố HCM</li>
-                <li>Điện thoại: (0123) 456-789</li>
-                <li>Email: vi_du@example.com</li>
+                Trụ sở</h3>
+            <ul class="mt-4">
+                <li>Văn phòng 2 T.Ư – GHPGVN – số 294 Nam Kỳ Khởi Nghĩa, phường Xuân Hòa, TP.HCM</li>
             </ul>
         </div>
         <div class="relative bg-none border p-4 rounded-lg border-gray-300 m-2 md:m-4">
-            <h3 class="absolute top-0 -translate-y-1/2 px-2 bg-blue-900 font-semibold text-lg z-50">Thông tin 2</h3>
-            <ul>
-                <li>Địa chỉ: 123 Đường ABC, Quận XYZ, Thành phố HCM</li>
-                <li>Điện thoại: (0123) 456-789</li>
-                <li>Email: vi_du@example.com</li>
-            </ul>
-        </div>
-        <div class="relative bg-none border p-4 rounded-lg border-gray-300 m-2 md:m-4">
-            <h3 class="absolute top-0 -translate-y-1/2 px-2 bg-blue-900 font-semibold text-lg z-50">Thông tin 3</h3>
-            <ul>
-                <li>Địa chỉ: 123 Đường ABC, Quận XYZ, Thành phố HCM</li>
-                <li>Điện thoại: (0123) 456-789</li>
-                <li>Email: vi_du@example.com</li>
+            <h3 class="absolute top-0 -translate-y-1/2 px-2 bg-blue-900 font-semibold text-lg z-50">
+                Phụ trách hỗ trợ kỹ thuật</h3>
+            <ul class="mt-4">
+                <li>Tổ thông tin – Công nghệ VP2 Trung ương Giáo hội</li>
+                <li>TT. Thích Minh Nhẫn</li>
+                <li>Điện thoại: 0982760624</li>
             </ul>
         </div>
     </div>

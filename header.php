@@ -2,7 +2,7 @@
 /**
  * Template cho phần Header.
  *
- * @package trungtiendevtheme
+ * @package hoinghitheme
  */
 ?>
 <!DOCTYPE html>
