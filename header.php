@@ -130,7 +130,7 @@
                         <div>
                             <?php
                                 $hero_heading = get_theme_mod('hero_heading', 'Tiêu đề Hero');
-                                $hero_description = get_theme_mod('hero_description', 'Đoạn văn mô tả Hero...');
+                                $hero_description = get_theme_mod('hero_description', 'Nơi lưu trữ và chứng thực các văn bản pháp quy, nghị quyết và tài liệu nền móng của Giáo hội Phật giáo Việt Nam.');
                             ?>
                             <h1 class="leading-tight text-3xl md:text-5xl font-medium tracking-tight text-balance text-zinc-950 text-center md:text-left" data-customize-setting-link="hero_heading">
                                 <?php echo esc_html( $hero_heading ); ?>
