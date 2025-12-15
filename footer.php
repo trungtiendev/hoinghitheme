@@ -41,7 +41,7 @@
 
 <footer id="colophon" class="site-footer bg-secondary text-gray-300 mt-0 py-8">
     <div class="container mx-auto max-w-6xl px-4 text-center">
-        <p>Copyright &copy; <?php echo date('Y'); // Lấy năm hiện tại ?> VP2 Trung Ương GHPGVN. Mọi quyền được bảo
+        <p>Copyright &copy; <?php echo date('Y'); // Lấy năm hiện tại ?> - VP2 Trung Ương GHPGVN. Mọi quyền được bảo
             lưu.</p>
     </div>
 </footer>
